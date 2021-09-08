@@ -1,0 +1,36 @@
+<h3>Tabela cidades</h3>
+
+    <mat-form-field>
+        <mat-label>Filtro</mat-label>
+        <input matInput placeholder="Digite o nome de uma cidade" type="text" (keyup)="applyFilter($event)">
+    </mat-form-field>
+
+<div>
+    <table mat-table [dataSource]="dataSource" matSort>
+        <ng-container matColumnDef="id">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header >ID</th>
+            <td mat-cell *matCellDef="let row"> {{ row.id }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="city">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>City</th>
+            <td mat-cell *matCellDef="let row"> {{ row.city }}</td>
+        </ng-container>
+        
+        <ng-container matColumnDef="region">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>Region</th>
+            <td mat-cell *matCellDef="let row"> {{ row.region }}</td>
+        </ng-container>
+        
+        <ng-container matColumnDef="country">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>Country</th>
+            <td mat-cell *matCellDef="let row"> {{ row.country }}</td>
+        </ng-container>
+        
+        <tr mat-header-row *matHeaderRowDef="columns"></tr>
+        <tr mat-row *matRowDef=" let row; columns: columns;"></tr>
+    </table>
+
+    <mat-paginator [length]="data.length" [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 50, 100]" aria-label="Select page">
+    </mat-paginator>
+</div>
