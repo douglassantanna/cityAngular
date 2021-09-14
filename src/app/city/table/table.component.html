@@ -1,8 +1,12 @@
-<h3>Tabela cidades</h3>
+<mat-toolbar color="primary">
+    <span>Pesquise uma cidade</span>
+    <span class="example-spacer"></span>
+  </mat-toolbar>
+  
 
-    <mat-form-field>
-        <mat-label>Filtro</mat-label>
-        <input matInput placeholder="Digite o nome de uma cidade" type="text" (keyup)="applyFilter($event)">
+    <mat-form-field appearance="outline">
+        <mat-label>Pesquise por uma localidade</mat-label>
+        <input matInput placeholder="Ex. Italia ou Santos" type="text" (keyup)="applyFilter($event)">
     </mat-form-field>
 
 <div>

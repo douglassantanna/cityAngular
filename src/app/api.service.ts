@@ -9,15 +9,12 @@ import { map } from 'rxjs/operators';
 })
 export class APIService {
 readonly URL = "http://localhost:3000/cities";
-results$!: Observable<any>;
+//results$!: Observable<any>;
 
   constructor(private http: HttpClient) { }
 
-  getData()
+  getData(): Observable<any>
   {
-    this.results$ = this.http.get(this.URL)
-    .pipe(
-      map((res: any) => res.results$)
-    );
+    return this.http.get(this.URL);
   }
 }
