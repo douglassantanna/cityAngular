@@ -13,6 +13,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { HttpClientModule } from '@angular/common/http';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [AppComponent, TableComponent],
@@ -27,6 +28,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatFormFieldModule,
     HttpClientModule,
     MatToolbarModule,
+    MatButtonModule
   ],
   providers: [APIService, HttpClientModule],
   bootstrap: [AppComponent],
