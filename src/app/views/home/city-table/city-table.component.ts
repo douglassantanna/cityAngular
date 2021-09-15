@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { APIService } from './../../api.service';
+import { APIService } from 'src/app/shared/service/api.service';
 import { MatPaginator } from '@angular/material/paginator';
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatSort } from '@angular/material/sort';
@@ -14,11 +14,11 @@ interface IData {
 }
 
 @Component({
-  selector: 'app-table',
-  templateUrl: './table.component.html',
-  styleUrls: ['./table.component.css'],
+  selector: 'app-city-table',
+  templateUrl: './city-table.component.html',
+  styleUrls: ['./city-table.component.css']
 })
-export class TableComponent implements OnInit {
+export class CityTableComponent implements OnInit {
   //criando tipo de tabela responsiva
   dataSource!: MatTableDataSource<IData>;
   data: IData[] = [];

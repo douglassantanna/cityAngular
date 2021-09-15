@@ -5,6 +5,6 @@ table {
     width: 100%;
     font-size: 14px;
 }
-.example-spacer {
-    flex: 1 1 auto;
+.pesquisar{
+    margin-top: 10px;
 }
