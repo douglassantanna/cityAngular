@@ -1,0 +1,91 @@
+{"city": [{
+    "id": "01",
+    "city": "Jundiai",
+    "region": "Sao Paulo",
+    "country": "Brazil"
+}, {
+    "id": "02",
+    "city": "Campinas",
+    "region": "Sao Paulo",
+    "country": "Brazil"
+}, {
+    "id": "03",
+    "city": "Santos",
+    "region": "Sao Paulo",
+    "country": "Brazil"
+}, {
+    "id": "04",
+    "city": "Milan",
+    "region": "Lombardia",
+    "country": "Italia"
+}, {
+    "id": "05",
+    "city": "Bergamo",
+    "region": "Lombardia",
+    "country": "Italia"
+}, {
+    "id": "06",
+    "city": "Torino",
+    "region": "Piemonte",
+    "country": "Italia"
+}, {
+    "id": "07",
+    "city": "San Francisco",
+    "region": "California",
+    "country": "USA"
+}, {
+    "id": "08",
+    "city": "New York",
+    "region": "New York",
+    "country": "USA"
+}, {
+    "id": "09",
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "USA"
+}, {
+    "id": "10",
+    "city": "Miami",
+    "region": "Florida",
+    "country": "USA"
+}, {
+    "id": "11",
+    "city": "Calgary",
+    "region": "Alberta",
+    "country": "Canada"
+}, {
+    "id": "12",
+    "city": "Toronto",
+    "region": "Ontario",
+    "country": "Canada"
+}, {
+    "id": "13",
+    "city": "London",
+    "region": "Ontario",
+    "country": "Canada"
+}, {
+    "id": "14",
+    "city": "Hamilton",
+    "region": "Ontario",
+    "country": "Canada"
+}, {
+    "id": "15",
+    "city": "Winnipeg",
+    "region": "Manitoba",
+    "country": "Canada"
+}, {
+    "id": "16",
+    "city": "Tabatinga",
+    "region": "Amazonas",
+    "country": "Brazil"
+}, {
+    "id": "17",
+    "city": "Tapiraí",
+    "region": "Sao Paulo",
+    "country": "Brazil"
+}, {
+    "id": "18",
+    "city": "Tres Pontas",
+    "region": "Minas Gerais",
+    "country": "Brazil"
+}]}

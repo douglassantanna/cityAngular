@@ -7,7 +7,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
   providedIn: 'root'
 })
 export class APIService {
-readonly URL = "http://localhost:3000/cities";
+readonly URL = "http://localhost:3005/city";
 
   constructor(private http: HttpClient, private snackBar: MatSnackBar) { }
 

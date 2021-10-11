@@ -29,7 +29,7 @@ export class CityTableComponent implements OnInit {
   //paginacao
   @ViewChild(MatPaginator, { static: true }) paginator!: MatPaginator;
 
-  constructor(private apiService: APIService, private http: HttpClient) {}
+  constructor(private apiService: APIService) {}
 
   ngOnInit(): void {
     //chamando método api
